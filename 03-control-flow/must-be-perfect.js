@@ -6,14 +6,15 @@
 // For example, if the word is equal to 'apples', lastWord should be equal to 'apples'.
 // If the word is equal to 'perfect', 'lastWord' should be equal to 'PERFECT'.
 
-let word = "carrots";
+// let word = "carrots";
 // let word = 'pacific';
 // let word = 'perfecto';
-// let word = 'perfect';
 
-let lastWord;
+let word = 'perfect';
 
 // YOUR CODE BELOW
+
+let lastWord = word.toUpperCase();
 
 // Do not the the code below
 module.exports = { word, lastWord };

@@ -7,5 +7,7 @@ let num3 = 779;
 
 // YOUR CODE BELOW
 
+const myFirstSum = num1 + num2 + num3
+
 // Do not change the code below
 module.exports = { myFirstSum };

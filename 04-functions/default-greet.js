@@ -4,5 +4,12 @@
 
 // YOUR CODE BELOW
 
+function defaultGreet(firstName, lastName) {
+    if(lastName === undefined){
+        lastName = "Doe";
+    }
+    return `Hi ${firstName} ${lastName}!`;
+}
+
 // Do not change the code below
-module.exports = { defulatGreet };
+module.exports = { defaultGreet };

@@ -6,5 +6,7 @@
 
 // YOUR CODE BELOW
 
+let myGuess = 400;
+
 // Do not change the code below
-module.exports = { myGuess };
+module.exports = {myGuess};

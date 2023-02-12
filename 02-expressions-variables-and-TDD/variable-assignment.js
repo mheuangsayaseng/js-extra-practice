@@ -10,5 +10,9 @@
 
 // YOUR CODE BELOW
 
+const myFirstName = "Maggie";
+const myFavoriteNum = 11;
+const havingFun = true;
+
 // Do not change the code below
 module.exports = { myFirstName, myFavoriteNum, havingFun };

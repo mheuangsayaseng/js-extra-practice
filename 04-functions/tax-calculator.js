@@ -7,5 +7,17 @@
 
 // YOUR CODE BELOW
 
+function taxCalculator(price, state) {
+    //if the state is NY
+    if (state === "NY"){
+        return (price *= 1.04)
+    }
+
+    //if the state is NJ
+    if (state === "NJ"){
+        return (price *= 1.06625)
+    }
+}
+
 // Do not change the code below
 module.exports = { taxCalculator };

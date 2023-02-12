@@ -4,5 +4,7 @@
 
 // YOUR CODE BELOW
 
+let favoriteActivity = "coding";
+
 // Do not change the code below
 module.exports = { favoriteActivity };

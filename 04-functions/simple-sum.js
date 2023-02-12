@@ -7,5 +7,9 @@
 
 // YOUR CODE BELOW
 
+function simpleSum (num1, num2) {
+    return num1 + num2;
+}
+
 // Do not change the code below
 module.exports = { simpleSum };
